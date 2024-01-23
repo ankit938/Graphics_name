@@ -1,1 +1,45 @@
-# Graphics_name
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>
+void main(){
+    int gd =DETECT,gm,i;
+    initgraph(&gd,&gm,"c:\\tc\\bgi");
+    delay(150);
+    setcolor(3);
+    line(70,12,50,40); delay(150);
+    line(70,12,90,40);delay(150);
+    line(60,28,80,28);delay(150);
+    line(100,12,100,40);delay(150);
+    line(100,12,120,40);delay(150);
+    line(120,12,120,40);delay(150);
+    line(130,12,130,40);delay(150);
+    line(150,12,130,27);delay(150);
+    line(130,27,150,40);delay(150);
+    line(161,12,161,40);delay(150);
+    line(170,12,190,12);delay(150);
+    line(180,12,180,40);delay(200);
+    setcolor(3);
+    line(210,12,210,40);delay(150);
+    line(210,12,222,30);delay(150);
+    line(222,30,232,12);delay(150);
+    line(232,12,232,40);delay(150);
+    line(242,12,242,40);delay(150);
+    line(252,12,265,12);delay(150);
+    line(252,12,252,26);delay(150);
+    line(252,26,265,26);delay(150);
+    line(265,26,265,40);delay(150);
+    line(252,40,265,40);delay(150);
+    line(276,12,276,40);delay(150);
+    line(276,26,288,26);delay(150);
+    line(288,12,288,40);delay(150);
+    line(298,12,298,40);delay(150);
+    line(298,12,313,12);delay(150);
+    line(313,12,313,26);delay(150);
+    line(298,26,313,26);delay(150);
+    line(298,26,313,40);delay(150);
+    line(335,12,322,40);delay(150);
+    line(335,12,348,40);delay(150);
+    line(329,27,342,27);delay(150);
+    getch();
+    closegraph;
+}
